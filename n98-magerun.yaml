@@ -1,0 +1,12 @@
+autoloaders:
+  CM\Magerun\CacheBenchmark: %module%/src
+
+commands:
+  customCommands:
+    - CM\Magerun\CacheBenchmark\Command\AnalyzeCommand
+    - CM\Magerun\CacheBenchmark\Command\CleanCommand
+    - CM\Magerun\CacheBenchmark\Command\CompressionTestCommand
+    - CM\Magerun\CacheBenchmark\Command\InitCommand
+    - CM\Magerun\CacheBenchmark\Command\LoadCommand
+    - CM\Magerun\CacheBenchmark\Command\OpsCommand
+    - CM\Magerun\CacheBenchmark\Command\TagsCommand
